@@ -1,18 +1,8 @@
---[[                                                                                                                                                                            
---------------------------------------------------------
----------------Anti-VPN script by Overlord--------------
---------------------------------------------------------
-Commands available: /checkVPN (case insensitive)
---]]
-
 local o_avpn = {}
-
-----------------------------Can be changed----------------------------
---Set to true to check all the connected players on the resource start
 o_avpn.onStartCheckup = true 
 
 o_avpn.avoided = {
-	"127.0.0.1",	--Add here the IP's that you want to avoid checking
+	"127.0.0.1",
 }
 -----------------------------------------------------------------------
 
